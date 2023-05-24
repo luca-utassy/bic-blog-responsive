@@ -28,7 +28,7 @@ body {
     text-decoration: none;
   }
   
-  article {
+  .primary-content {
     line-height: 250%;
     padding: 2%;
   }
