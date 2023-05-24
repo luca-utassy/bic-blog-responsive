@@ -1,0 +1,64 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Playfair display';
+  }
+  .main-menu {
+    background: hsla(193, 68%, 23%, 1);
+    color: white;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    line-height: 3rem;
+    width: 100%;
+  }
+  
+  h1, h2 {
+    font-size: 1.8rem;
+    font-family: Montserrat;
+  }
+  
+  a {
+    font-size: 1.1rem;
+    color: hsla(286, 52%, 21%, 1);
+    background-color: hsla(41, 74%, 53%, 0.9);
+    border-radius: 10px;
+    padding: .7%;
+    margin: 2%;
+    font-family: Montserrat;
+    text-decoration: none;
+  }
+  
+  article {
+    line-height: 250%;
+    padding: 2%;
+  }
+  
+  
+  img {
+    width: 100%;
+  }
+  
+  h2 {
+   color: hsla(286, 52%, 21%, 1);
+   line-height: 120%;
+  }
+  
+  
+  a:hover {
+    background-color: lightgrey;
+  }
+  
+  @media (min-width: 768px) {
+    .main-menu {
+      width: 20%;
+      height: 100%;
+      position: fixed;
+    }
+    article {
+      float: right;
+      width: 75%
+    }
+    img {
+     width: 60%;
+    }
+  }  
