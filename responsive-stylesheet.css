@@ -56,10 +56,9 @@ body {
       padding: 2%;
       margin: 0;
     }
-    article {
+    .primary-content {
       float: right;
       width: 70%;
-
     }
     img {
      width: 60%;
